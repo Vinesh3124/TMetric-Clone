@@ -2,15 +2,41 @@
 CSS for Top Starts here
 ======================================================================================================================= */
 
+.top__banner{
+    width: 100%;
+    height: 40px;
+}
 
+.img{
+    width: 100%;
+    height: 100%;
+}
 
+.top__navbar{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+}
 
+.top__navbar__logo{
+    width: 14%;
+    height: 80%;
+    margin: 7px;
+    margin-left: 4%;
+}
 
+.top__navbar__lan{
+    width: 5%;
+    height: 40%;
+    margin-top: 25px;
+    /* text-align: center; */
+    border: 1px solid black;                                                                                                            
+}
 
-
-
-
-
+.top__navbar__lan>p{
+    padding-bottom: 12px;
+}
 
 
 
