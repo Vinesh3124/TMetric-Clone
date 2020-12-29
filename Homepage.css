@@ -1,8 +1,19 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
 /* =======================================================================================================================
 CSS for Top Starts here
 ======================================================================================================================= */
+.Top{
+    width: 100%;
+    height: auto;
+    background-color: #FFF0B8;
+}
 
 .top__banner{
+    margin: 0;
     width: 100%;
     height: 40px;
 }
@@ -12,33 +23,176 @@ CSS for Top Starts here
     height: 100%;
 }
 
+.imglogo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
 .top__navbar{
     width: 100%;
     height: 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
+    background-color: #FFF0B8;
+    overflow: hidden;
 }
 
 .top__navbar__logo{
-    width: 14%;
-    height: 80%;
-    margin: 7px;
-    margin-left: 4%;
+    width: 4%;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+
+.top__navbar__logo__name{
+    width: 10%;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 1%;
 }
 
 .top__navbar__lan{
-    width: 5%;
-    height: 40%;
-    margin-top: 25px;
-    /* text-align: center; */
-    border: 1px solid black;                                                                                                            
+    width: 3%;
+    height: 28px;
+    margin-top: 22px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border: 1px solid rgb(155, 144, 144); 
+    border-radius: 5px;
+    padding: 5px;                                                                                                           
 }
 
-.top__navbar__lan>p{
-    padding-bottom: 12px;
+.top__navbar__options{
+    width: 48%;
+    height: 80%;
+    /* border: 1px solid black; */
+    margin-top: 1%;
+    margin-left: 1.5%;
+    display: flex;
+}
+
+.top__navbar__options__1, .top__navbar__options__2, .top__navbar__options__3{
+    width: 16%;
+    height: 50%;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #292E33;
+}
+
+.top__navbar__options__2{
+    width: 25%;
+}
+
+.top__navbar__options__3{
+    width: 9%;
+}
+
+.top__navbar__login{
+    width: 25%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 0%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.top__navbar__login1, .top__navbar__login>button{
+    width: 16%;
+    height: 50%;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 3px;
+    font-size: 16px
+}
+
+.top__navbar__login1{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.top__navbar__login1>label>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.top__navbar__login>button{
+    width: 25%;   
+    height: 60%;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid #0066CC;
+    color: #0066CC;
+    background-color: #FFF0B8;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+/* Top middle css */
+
+.Top__middle{
+    width: 97%;
+    height: auto;
+    background-color: #FFF0B8;
+    padding: 16px;
 }
 
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .sticky + .Top__middle {
+    padding-top: 60px;
+  }
+
+.Top__middle__desc>h1{
+    text-align: center;
+    font-size: 65px;
+    line-height: 72px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    color: #292E33;
+}
+
+.Top__middle__about{
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    line-height: 22px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.Top__middle__button{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 15%;
+    border-radius: 8px;
+    margin-left: 42%;
+    margin-top: 3%;
+}
+
+.Top__middle__image{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    background-image: url(https://tmetric.com/media/haqdiac4/img-video-cover.png);
+}
 
 /* =======================================================================================================================
 CSS for Top Ends here
