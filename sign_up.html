@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Account</title>
+    <style>
+        /* sign up main div */
+        .sign_up_main_div{
+            height: 650px;
+            width: 1250px;
+            border-radius: 10px;
+            border: solid #E7EAED 2px;
+        }
+        /* there are two part of our page 1st left(left_div) & 2nd right(right_div) */
+        /* there is 1st div styles */
+        .left_div{
+            width: 600px;
+            height: 600px;
+            float: left;
+        }
+       
+        .left_div_div{
+            height: 150px;
+            /* background-color: red; */
+           /* margin: 10px; */
+           text-align: center;
+           padding: 10px;
+        }
+
+        .input_div{
+          padding: 20px 150px;
+            
+        }
+
+        .input{
+            height: 30px;
+            width: 350px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border: 1px solid #D5DBDF;
+            color: #9BA0A4;
+        }
+        .log_in_btn{
+            height: 35px;
+            width: 360px;
+            margin: 10px 0 10px 0;
+            color: white;
+            background-color: #3070F0;
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid #D5DBDF;
+        }
+        .google_log_in_btn{
+            height: 36px;
+            width: 360px;
+            margin: 10px 0 50px ;
+            /* color: white; */
+            background-color: #E8F0FE;
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid #D5DBDF;
+        }
+        .input:hover{
+            border: 1px solid  #3070F0;
+            color: red;
+            font-size: 30px;
+        }
+
+        .google_logo{
+            height: 30px ;
+            width: 30px;
+            border-radius: 50%;
+        }
+        .sign_up_btn{
+             margin:50px 10px 50px 310px;
+             text-decoration: none;
+             color:#3070F0;
+        }
+        .a{
+            text-decoration: none;
+            color: #3070F0;
+        }
+        .label{
+            color: #9BA0A4;
+        }
+
+            /* there is 2nd part(right_div) of sign_up page */
+            .right_div{
+            background-color: #F2F5FC;
+            height: 650px;
+            width: 600px;
+            float: right;
+        }
+            /* animation perpoeus */
+        .div_1{
+            height: 40px;
+            width: 40px;
+            border: 2px solid blue;
+            background-color: pink;
+            margin: auto;
+            border-radius: 50%;
+            animation: mymove 3s infinite; /* all*/
+        }
+        .div_2{
+            height: 100px;
+            width: 100px;
+            border: 3px solid brown;
+            background-color: green;
+            margin: 10px auto;
+            border-radius: 50%;
+            animation: mymove 7s infinite; /* all*/
+        }
+        .div_3{
+            height: 200px;
+            width: 200px;
+            float: left;
+            border:4px solid rgb(228, 206, 206);
+            margin: auto    ;
+            border-radius: 50%;
+            animation: mymove 10s infinite; /* all*/
+            background-color: green;
+        }
+        .div_4{
+            height: 10px;
+            width: 10px;
+            float: left;
+            border:1px solid rgb(248, 36, 36);
+            border-radius: 50%;
+            animation: mymove 2s infinite; /* all*/
+            background-color: rgb(212, 34, 153);
+            text-align: center;
+        }
+        @keyframes mymove {
+            50%{ background: blue bottom right/30% 30%;}
+            50%{ border: 50px dashed orange;} /*for border-left*/
+            /* 50%{width: 70%;}; */
+            50%{border-radius: 50%;} /* radius */
+            50%{box-shadow: 30px 30px 40px brown } 
+            50% {transform: rotate(360deg);}
+            
+        }
+        #output,#output_email,#output_password{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="sign_up_main_div">
+        <div class="left_div">
+            <div class="left_div_div">
+                <img src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
+                <h1 style="color: #34393D;">Create Your Account</h1>
+            </div>
+            <form class="input_div">
+                <div>
+                    <label for="name"  class="label">Name</label>
+                </div>
+                <div>
+                    <input class="input" type="text" id="name" placeholder="Enter Your Full Name">
+                    <p id = "output"></p>
+                </div>
+                <div>
+                    <label for="email"  class="label">Email</label>
+                </div>
+                <div>
+                    <input class="input" type="email" id="email" placeholder="1amanpce@mail.com">
+                    <p id = "output_email"></p>
+                </div>
+                <div>
+                    <label for="password" class="label">Password</label>
+                </div>
+                <div>
+                    <input class="input" type="password" id="password" placeholder="Enter your Password">
+                    <p id = "output_password"></p>
+                </div>
+                <div>
+                    <input type="checkbox" id="accept" name="accept" checked>
+                    <label for="accept">I accept <a class="a" href=""> Terms of Service</a></label>
+                 </div>
+                <div>
+                        <!-- <input id="submit" class="log_in_btn" type="submit"> -->
+                        <button id="submit" class="log_in_btn">Sign Up</button>
+                </div>
+                <div>
+                    <button class="google_log_in_btn">
+                        <img class="google_logo" src="https://www.flaticon.com/svg/static/icons/svg/2702/2702602.svg" alt="Log in with Google"/>
+                    </button>
+                </div>
+               
+            </form>
+            <div>
+                <a class="sign_up_btn" href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\login_page.html">Log In</a>
+            </div>
+        </div>
+        <div class="right_div">
+            <div class="div_1"></div>
+            <div class="div_2">
+                <div class="div_1">
+                    <div class="div_4">1</div>
+                </div>
+            </div>
+            <div class="div_3">
+                <div class="div_2">
+                    <div class="div_1">
+                        <div class="div_4">1</div>
+                    </div>
+                </div>
+                <div class="div_1"></div>
+               
+            </div>
+            <div class="div_1"></div>
+            <div></div>
+        </div>
+    </div>
+
+
+
+<script>
+
+        var form = document.getElementById('input_div');
+        var fname = document.getElementById('name');
+        var gmail= document.getElementById('email');
+        var pwd=document.getElementById('password')
+        var submit = document.getElementById('submit');
+        var para = document.getElementById('output');
+        var para_email = document.getElementById('output_email');
+        var para_pwd = document.getElementById('output_password');
+        var para_box= document.getElementById('output_box');
+
+        function validate(e){
+            e.preventDefault()
+            if(fname.value === ""){
+                para.textContent = "enter your name"
+            }
+            else if(gmail.value=== ""){
+                para_email.textContent="Enter your Email id"
+            }
+            else if(pwd.value=== ""){
+                para_pwd.textContent="enter your password"
+                
+            }
+        }
+        document.getElementById("submit").addEventListener('click', validate);
+</script>
+</body>
+</html>
