@@ -100,6 +100,9 @@ CSS for Top Starts here
     /* border: 1px solid black; */
 }
 
+
+/* .top__navbar__login>div:nth-child(2) */
+
 .top__navbar__login1, .top__navbar__login>button{
     width: 16%;
     height: 50%;
@@ -122,14 +125,31 @@ CSS for Top Starts here
     font-size: large;
 }
 
-.top__navbar__login>button{
+
+/* .top__navbar__login>div:nth-child(2)>strong{
+    border: 1px solid black;
+    right: 8.5%;
+    top: 11%;
+    position: absolute;
+} */
+
+/* .top__navbar__login>div:nth-child(2)>strong>a{
+    text-decoration: none;
+    color: #0066CC;
+} */
+
+.top__navbar__login>button
+/* .top__navbar__login>div:nth-child(2) */
+{
     width: 25%;   
     height: 60%;
+    text-align: center;
     color: black;
     font-weight: bolder;
     border: 1px solid #0066CC;
     color: #0066CC;
-    background-color: #FFF0B8;
+    margin-top: 1%;
+    /* background-color: #FFF0B8; */
     border-radius: 5px;
     margin-left: 5%;
 }
@@ -185,6 +205,11 @@ CSS for Top Starts here
     border-radius: 8px;
     margin-left: 42%;
     margin-top: 3%;
+    cursor: pointer;
+}
+
+.Top__middle__button:hover{
+    background-color: #0051a1;;
 }
 
 .Top__middle__image{
@@ -193,6 +218,187 @@ CSS for Top Starts here
     margin: auto;
     background-image: url(https://tmetric.com/media/haqdiac4/img-video-cover.png);
 }
+
+.Top__middle__image__butt{
+    margin-top: 18%;
+    margin-left: 42%;
+    border: 1px solid black;
+    background-color: #222222;
+    box-shadow:    -7px 7px 7px #111111;
+    border-radius: 50%;
+    width: 13%;
+    height: 25%;
+    cursor: pointer;
+}
+
+.Top__middle__image__butt:hover{
+    background-color: black;
+}
+
+.Top__middle__image__butt>a>i{
+    margin-left: 15%;
+    color: white;
+}
+
+.Top__middle__white{
+    background-color: white;
+}
+
+.Top__middle__awards{
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+    /* border: 1px solid black; */
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.Top__middle__awards__1{
+    width: 10%;
+    height: 100px;
+    margin: 1%;
+    margin-left: 3%;
+    /* border: 1px solid black; */
+}
+
+.Top__middle__best{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.Top__middle__best>h1{
+    color: #292E33;
+    font-size: 45px;
+    line-height: 98%;
+    word-spacing: 7px;
+    letter-spacing: 4px;
+}
+
+.Top__middle__cards{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.Top__middle__cards__image{
+    width: 65%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+
+.Top__middle__cards__button{
+    display: flex;
+    flex-direction: column;
+}
+
+.Top__middle__cards__button1{
+    width: 80%;
+    height: 25%;
+    border: 1px solid rgb(175, 175, 175);
+    display: flex;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.Top__middle__cards__button1>div:nth-child(1),.Top__middle__cards__button1>div:nth-child(2){
+    width: 20%;
+    height: 98%;
+    margin-top: 10%;
+    /* border: 1px solid black; */
+}
+
+.Top__middle__cards__button1>div:nth-child(2){
+    width: 80%;
+}
+
+.Top__middle__cards__button1>div:nth-child(2)>strong{
+    font-size: 25px;
+}
+
+.Top__middle__cards__button2{
+    width: 80%;
+    height: 10%;
+    border: 1px solid rgb(175, 175, 175);
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.Top__middle__cards__button2>div:nth-child(1),.Top__middle__cards__button2>div:nth-child(2){
+    width: 20%;
+    height: 78%;
+    margin-top: 8%;
+    /* border: 1px solid black; */
+}
+
+.Top__middle__cards__button2>div:nth-child(2){
+    width: 80%;
+    height: 50%;
+    margin-top: 8%;
+}
+
+.Top__middle__cards__button2>div:nth-child(2)>strong{
+    font-size: 25px;
+}
+
+.Top__middle__grey, .Top__middle__white__ensure{
+    background-color: #F6F7F8;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.Top__middle__grey__manage, .Top__middle__grey__manage__image, 
+.Top__middle__white__ensure1, .Top__middle__white__ensure1__image{
+    width: 50%;
+    height: 90%;
+    /* border: 1px solid black; */
+}
+
+.Top__middle__grey__manage>h1, .Top__middle__white__ensure1>h1{
+    font-size: 45px;
+    margin-left: 6%;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+}
+
+.Top__middle__grey__manage>p, .Top__middle__white__ensure1>p{
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #212529;
+    margin-left: 6%;
+}
+
+.Top__middle__grey__button{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 25%;
+    border-radius: 8px;
+    margin-left: 6%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.Top__middle__grey__button:hover{
+    background-color: #0051a1;
+}
+
+.Top__middle__white__ensure{
+    background-color: white;
+}
+
+
+
 
 /* =======================================================================================================================
 CSS for Top Ends here
