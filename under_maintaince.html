@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintance</title>
+    <style>
+        .under_div{
+            height: 580px;
+            width: 1200px;
+            border: brown 1px solid ;
+            background-color: #DEE7F7;
+        }
+        .div_1{
+            height: 220px;
+            width: 350px;
+            margin: 20px;
+            /* background-color: red; */
+            float: left;
+            border-radius: 50%;
+            animation: mymove 8s infinite;
+        }
+         @keyframes mymove {
+            0%   {background-color: rgb(37, 226, 154) ; left:0px; top:0px;}
+            25%  {background-color: yellow;  left:100px; top:100px;}
+            50%  {background-color: blue; left:25px; top:25px;}
+            100% {background-color: rgb(226, 62, 144);  left:400px; top:400px;}
+            50%{ background: rgb(109, 109, 230) bottom right/400px 200px;;}
+             50% {border-left: 20px solid green;}
+            50%{ border: 10px dashed orange;}
+            50%{box-shadow: 30px 30px 40px brown }
+            50%{font-size: 80px;color: red; text-align: center;}
+            50% {transform: rotate(360deg);}
+        }
+        .h1{
+            font-size: 20px;
+            text-align: center;
+            position: block;
+            animation: mymove 15s infinite;
+            color: #DEE7F7;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class=under_div>
+        <h1 class="h1">Page Under Maintance</h1>
+        <div class="div_1"></div>
+        <div class="div_1"></div>
+        <div class="div_1"></div>
+        <h1 class=h1>Page Under Maintance</h1>
+        <div class="div_1"></div>
+        <div class="div_1"></div>
+        <div class="div_1"></div>
+    </div>
+    
+</body>
+</html>
