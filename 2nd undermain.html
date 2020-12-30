@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  background-color: red;
+  font-weight: bold;
+  font-size:40px;
+  padding-left: 10px;
+  position: relative;
+  animation: mymove 5s infinite;
+  float:left;
+  margin: 10px;
+  border-radius: 30%;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+#div6 {animation-timing-function: linear;}
+#div7 {animation-timing-function: ease-in;}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 250px;}
+  50%{font-size:50px}
+}
+</style>
+</head>
+<body>
+
+
+<div id="div1">Page</div>
+<div id="div2">Under</div>
+<div id="div3">Maintance</div>
+<div id="div4">Go</div>
+<div id="div5">Another</div>
+<div id="div6">Our</div>
+<div id="div7">Page</div>
+
+</body>
+</html>

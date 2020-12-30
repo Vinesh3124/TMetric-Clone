@@ -112,7 +112,7 @@
 }
 
 .side_nav {
-    height: 100%x;
+    height: 100%;
     width: 0;
     position: fixed;
     overflow-y: scroll;
@@ -221,7 +221,7 @@
  
 .time_div{
    
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 10px;
     margin-top: 10px;
 
@@ -250,7 +250,7 @@
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: -9;
-    margin-right: 56.5%;
+    margin-right: 69.5%;
   }
   
   /* Add styles to the form container */
@@ -318,3 +318,5 @@
       font-size: 16px;
       cursor: pointer;
   }
+
+
