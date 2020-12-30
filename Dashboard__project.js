@@ -1,39 +1,52 @@
-let dropdownBtn1 = document.querySelector('.Projects__conatiner__dropdwn__btn1');
-let menuContent1 = document.querySelector('.Projects__conatiner__dropdwn__data1');
-dropdownBtn1.addEventListener('click',()=>{
-   if(menuContent1.style.display===""){
-      menuContent1.style.display="block";
-   } else {
-      menuContent1.style.display="";
+function myFunction() {
+   document.getElementById("myDropdown").classList.toggle("show");
+ }
+ 
+ function myFunction1() {
+   document.getElementById("myDropdown1").classList.toggle("show");
+ }
+ 
+ function myFunction2() {
+   document.getElementById("myDropdown2").classList.toggle("show");
+ }
+ 
+ function myFunction3() {
+   document.getElementById("myDropdown3").classList.toggle("show");
+ }
+ 
+ // Close the dropdown if the user clicks outside of it
+ window.onclick = function(e) {
+   if (!e.target.matches('.dropbtn')) {
+   var myDropdown = document.getElementById("myDropdown");
+     if (myDropdown.classList.contains('show')) {
+       myDropdown.classList.remove('show');
+     }
    }
-})
-
-let dropdownBtn2 = document.querySelector('.Projects__conatiner__dropdwn__btn2');
-let menuContent2 = document.querySelector('.Projects__conatiner__dropdwn__data2');
-dropdownBtn2.addEventListener('click',()=>{
-   if(menuContent2.style.display===""){
-      menuContent2.style.display="block";
-   } else {
-      menuContent2.style.display="";
+ }
+ 
+ window.onclick = function(e) {
+   if (!e.target.matches('.dropbtn1')) {
+   var myDropdown1 = document.getElementById("myDropdown1");
+     if (myDropdown1.classList.contains('show')) {
+       myDropdown1.classList.remove('show');
+     }
    }
-})
-
-let dropdownBtn3 = document.querySelector('.Projects__conatiner__dropdwn__btn3');
-let menuContent3 = document.querySelector('.Projects__conatiner__dropdwn__data3');
-dropdownBtn3.addEventListener('click',()=>{
-   if(menuContent3.style.display===""){
-      menuContent3.style.display="block";
-   } else {
-      menuContent3.style.display="";
+ }
+ 
+ window.onclick = function(e) {
+   if (!e.target.matches('.dropbtn2')) {
+   var myDropdown2 = document.getElementById("myDropdown2");
+     if (myDropdown2.classList.contains('show')) {
+       myDropdown2.classList.remove('show');
+     }
    }
-})
-
-let dropdownBtn4 = document.querySelector('.Projects__conatiner__dropdwn__btn4');
-let menuContent4 = document.querySelector('.Projects__conatiner__dropdwn__data4');
-dropdownBtn4.addEventListener('click',()=>{
-   if(menuContent4.style.display===""){
-      menuContent4.style.display="block";
-   } else {
-      menuContent4.style.display="";
+ }
+ 
+ window.onclick = function(e) {
+   if (!e.target.matches('.dropbtn3')) {
+   var myDropdown3 = document.getElementById("myDropdown3");
+     if (myDropdown3.classList.contains('show')) {
+       myDropdown3.classList.remove('show');
+     }
    }
-})
+ }
