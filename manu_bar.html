@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dash board</title>
     <link rel="stylesheet" href="menu_bar.css">
+    <style>
+        
+
+        </style>
     </head>
     <body>
     
+         <!-- Left side menu bar -->
     <div id="my_Side_nav" class="side_nav">
-        <div class="top_div">
-            <img src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
-        </div>
+            <div class="top_div">
+                <img src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
+            </div>
             <a href="javascript:void(0)" class="close_btn" onclick="closeNav()">&times;</a>
+
+            <!-- All Menu contant  -->
             <a href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\under_maintaince.html"> 
                 <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/3884/3884295.svg" alt="Time_logo">Time
             </a>
@@ -47,16 +54,55 @@
                 <img class="menu_bar_logo" src="" alt="Help">Helps
             </a>
     </div>
+    <!-- open left side menu bar -->
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
     
+
+     <!-- right side manu_bar for log out  -->
+    <div id="right_Side_nav" class="right_side_nav">
+
+            <!-- for close buttom -->
+            <a href="javascript:void(0)" class="right_close_btn" onclick="right_closeNav()">&times;</a>
+            <div class="right_top_div">
+                <img class="log_out_logo" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg" alt="">
+            </div>
+             
+            <!-- contant of log out menu  -->
+            <button class="log_out_btn"> <a href="https://www.masaischool.com">Profile </a></button>
+            <button class="log_out_btn"> <a href="https://www.masaischool.com"> Masai </a></button>
+            <button class="log_out_btn"> <a href="https://www.masaischool.com"> Manage WorkSpace </a></button>
+            <button class="log_out_btn"> <a href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\login_page.html"> Log Out </a></button>   
+    </div>
+
+     <!-- open right manu  -->
+    <span style="font-size:30px;cursor:pointer ;float: right;" onclick="right_openNav()">
+         <img class="log_out_logo" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg" alt="profile"> 
+    </span>
+      
+
+      <!-- your can add here your own page is here -->
+        <div class="main_div_home"> </div>
+        <div class="time_div">
+            write here your code
+        </div>
+
+
     <script>
             function openNav() {
-            document.getElementById("my_Side_nav").style.width = "200px";
-            }
+            document.getElementById("my_Side_nav").style.width = "250px";
+         
+        }
     
             function closeNav() {
             document.getElementById("my_Side_nav").style.width = "0";
             }
+        function right_openNav() {
+        document.getElementById("right_Side_nav").style.width = "200px";
+        }
+
+        function right_closeNav() {
+        document.getElementById("right_Side_nav").style.width = "0";
+        }
             </script>
        
     </body>
