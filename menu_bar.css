@@ -1,7 +1,7 @@
 
 /* left side bar */
 .side_nav {
-    height: 100%x;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -101,8 +101,10 @@
  
 .time_div{
    
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 10px;
     margin-top: 10px;
 
 }
+
+
