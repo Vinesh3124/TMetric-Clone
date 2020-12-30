@@ -1,7 +1,7 @@
 
 /* left side bar */
 .side_nav {
-    height: 400px;
+    height: 100%x;
     width: 0;
     position: fixed;
     z-index: 1;
