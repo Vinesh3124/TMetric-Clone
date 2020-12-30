@@ -1,44 +1,108 @@
 
+/* left side bar */
 .side_nav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #F6F7F8;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+    height: 400px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F6F7F8;
+    overflow-x: hidden;
+    transition: 0.5s;
+   padding-top: 60px;
 }
 
 .side_nav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #34393D;
-  display: block;
-  transition: 0.3s;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #34393D;
+    display: block;
+    transition: 0.3s;
 }
 
 .side_nav a:hover {
-  color:#3070F0;
-  background-color: #DEE7F7;
+    color:#3070F0;
+    background-color: #DEE7F7;
 }
 
 .side_nav .close_btn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-right:5px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right:5px;
 }
 .top_div{
-   padding: 5px;
+    padding: 5px;
 }
 
 .menu_bar_logo{
     height: 20px ;
     width: 20px;
     margin-right: 10px;
+}
+
+
+
+     /* right_side for logout manu */
+.right_side_nav {
+    height: 300px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #F6F7F8;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.right_side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #34393D;
+    display: block;
+    transition: 0.3s;
+}
+
+.right_side_nav .right_close_btn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    top:0px;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.right_side_nav a:hover{
+    color:#3070F0;
+    background-color: #DEE7F7;
+}
+
+.log_out_logo{
+    height: 40px;
+    width: 40px;
+    margin:10px 0px 10px 20px;
+  }
+    
+.log_out_btn{
+    border: none;
+     text-decoration: none;
+    text-align: left;
+    padding-left: 10px;
+    width: 170px;
+ }
+
+ 
+ 
+.time_div{
+   
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-top: 10px;
+
 }
