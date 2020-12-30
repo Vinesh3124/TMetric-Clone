@@ -15,11 +15,52 @@
             <strong>Projects</strong>
         </div>
         
-        <div class="Projects__conatiner__dropdwn">
-            <div class="Projects__conatiner__dropdwn__btn1">Client: All  <i class="fas fa-angle-down"></i></div>
-            <div class="Projects__conatiner__dropdwn__data1">
-              
-            </div>
+        <div class="navbar">
+        
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Clinet: All
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <div><input type="text" placeholder="Find client..."/></div><br/>
+                    <div><input type="checkbox"/><lable>No client</lable></div>
+                </div>
+            </div> 
+      
+            <div class="dropdown1">
+                <button class="dropbtn1" onclick="myFunction1()">Status: Active and Done
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content1" id="myDropdown1">
+                    <a href="#">Any</a>
+                    <a href="#">Active and Done</a>
+                    <a href="#">Active</a>
+                    <a href="#">Archived</a>
+                </div>
+            </div> 
+    
+            <div class="dropdown2">
+                <button class="dropbtn2" onclick="myFunction2()">Billing: Any
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content2" id="myDropdown2">
+                    <a href="#">Any</a>
+                    <a href="#">Non-billable</a>
+                    <a href="#">Time & Materials</a>
+                    <a href="#">Fixed Fee</a>
+                </div>
+            </div> 
+    
+            <div class="dropdown3">
+                <button class="dropbtn3" onclick="myFunction3()">Budget: Any
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content3" id="myDropdown3">
+                    <a href="#">Any</a>
+                    <a href="#">Yes</a>
+                    <a href="#">No</a>
+                </div>
+            </div> 
         </div>
 
         <div class="Projects__container__list">
