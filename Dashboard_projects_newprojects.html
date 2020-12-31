@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dashboard_projects_newprojects.css" />
+    <script src="https://kit.fontawesome.com/f612f4d575.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="newProject__container">
+        <div class="newProject__container__title">
+            <div><i class="fas fa-arrow-left"></i></div>
+            <div><a href="#">New Project</a></div> 
+        </div>
+        <div class="newProject__container__form">
+            <div class="newProject__container__form__container">
+                <div class="newProject__container__form__title">
+                    <div><p>General</p></div>
+                    <div><span>Active</span></div>
+                </div>
+                <div class="newProject__container__form__details">
+                    <div>
+                        <label>project name</label><br>
+                        <input type="text" placeholder="Enter project name"/><br><br>
+                        <label>Client</label><br/>
+                        <input type="text" placeholder="No client"/><br/><br/><br/><br/>
+                    </div>
+                    <div>
+                        <label>Project code</label><br>
+                        <input type="text" placeholder="PR-01"/>
+                        <div class="newProject__container__form__details__folder">
+                            <div class="newProject__container__form__details__folder__img"><i class="fas fa-folder fa-2x"></i></i></div>
+                            <div><label>Select project image</label></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newProject__container__form__details__notes">
+                    <label>Notes</label><br/>
+                    <input type="text" placeholder="Additional information on the project"/>
+                </div>
+                <div class="newProject__container__form__container__billing">
+                    <div><p>Billing</p></div>
+                    <div>
+                        <div>Non-billable</div>
+                        <div>Time & Materials</div>
+                        <div>Fixed Fee</div>
+                    </div>
+                </div>
+
+                <div class="newProject__container__form__container__budget">
+                    <div><p>Budget</p></div>
+                    <div>
+                        <div>Non-billable</div>
+                        <div>Time & Materials</div>
+                        <div>Fixed Fee</div>
+                        <div>Fixed Fee</div>
+                        <div>Fixed Fee</div>
+                    </div>
+                </div>
+                <div class="newProject__container__form__container__team">
+                    <div><p>Team</p></div>
+                    <div>
+                        <button><i class="fas fa-plus"></i>  Add memebers to project team</button>
+                    </div>
+                    <div>
+                        <p>
+                            <i class="fas fa-info-circle"></i>
+                            It's a public project. Time can be recorded by every member. All workspace members 
+                            will see the project in their reports. Add team members to restrict project visibility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+    <script src="Dashboard__project.js"></script>
+</body>
+</html>
