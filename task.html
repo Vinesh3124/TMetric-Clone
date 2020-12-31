@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tasks</title>
+</head>
+<body>
+    <div class="task">
+        
+        <div class="task_rightside">
+            <div class="task_header dropdown1">
+                <h1>My Tasks</h1>
+                <div class="task_verticle_line"></div>
+                <button id="Select_assignee"  onclick="myFunction8()" class="Select_assignee ">Select Assigne  <i class="fa fa-angle-down ml-1"></i> </button>
+                <div id="myDropdown8" class="dropdown-content1 assignee">
+                    <a href="#">
+                    <input  class="client_dropdown" placeholder="Find user..."/>
+                    </a>
+                    <div class="creator_all_user">
+                        <img src="https://www.gravatar.com/avatar/c38574605ea2197456a247b0ce626f99?s=48&d=https%3A%2F%2Fservices.tmetric.com%2Fstorage%2FContent%2FAvatars%2Fuser-v2.png"/>
+                        <a href="#">All</a>
+                   </div>
+               </div>
+           </div>
+           <div class="task_buttons dropdown1">
+                <button id="client_all"  onclick="myFunction1()" class="task_buttons_all dropbtn1">Client : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="myDropdown1" class="dropdown-content1">
+                    <a href="#">
+                        <input  class="client_dropdown" placeholder="Find client..."/>
+                    </a>
+                    <a href="#">No items</a>
+                </div>
+                <button id="project_all"  onclick="myFunction2()" class="task_buttons_all dropbtn1">Project : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="myDropdown2" class="dropdown-content1 projectall">
+                    <a href="#">
+                        <input  class="client_dropdown" placeholder="Find project..."/>
+                    </a>
+                    <a href="#">No project</a>
+                </div>
+                <button id="tag_all" onclick="myFunction3()" class="task_buttons_all dropbtn1" >Tag : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="myDropdown3" class="dropdown-content1 tagall">
+                    <a href="#">
+                        <input  class="client_dropdown" placeholder="Find Tag..."/>
+                    </a>
+                    <a href="#">No project</a>
+                    <a href="#">No work</a> 
+                </div>
+                <button id="status_all" onclick="myFunction4()" class="task_buttons_all dropbtn1">Status : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                    <div id="myDropdown4" class="dropdown-content1 statusall">
+                        <a href="#">Open</a>
+                        <a href="#">Completed</a> 
+                        <a href="#">All</a> 
+                    </div>
+                <button id="creator_all" onclick="myFunction5()"  class="task_buttons_all dropbtn1">Creator : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="myDropdown5" class="dropdown-content1 creatorall">
+                        <a href="#">
+                        <input  class="client_dropdown" placeholder="Find user..."/>
+                        </a>
+                        <div class="creator_all_user">
+                            <img src="https://www.gravatar.com/avatar/c38574605ea2197456a247b0ce626f99?s=48&d=https%3A%2F%2Fservices.tmetric.com%2Fstorage%2FContent%2FAvatars%2Fuser-v2.png"/>
+                        <a href="#">Any</a>
+                    </div>
+                </div>
+                <button id="source_all" onclick="myFunction6()"class="task_buttons_all dropbtn1">Source : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="myDropdown6" class="dropdown-content1 sourceall">
+                    <a href="#">Internal</a>
+                    <a href="#">External</a> 
+                    <a href="#">All</a> 
+                </div> 
+        </div>
+        <div class="New__task">
+            <div class="new__task">
+                <button  id="New_task_button" class="new__task_btn">+ New Task</button>
+                <button id="sort_project" onclick="myFunction7()" class="sort_project">Sort : <span style="color:black">Project  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="myDropdown7" class="dropdown-content1 sortall">
+                    <a href="#">Project</a>
+                    <a href="#">Due Date</a> 
+                    <a href="#">Last Updated</a> 
+                    <a href="#">Newer First</a> 
+                    <a href="#">Older First</a> 
+                </div> 
+                <div class="search_bar">
+                    <i class="fa fa-search" id="search_icon"></i>
+                    <input id="search" class="New__task_search" placeholder="Search" type="text"></input>
+                </div>
+            </div>
+            <hr>
+            <button class="project__lists" id="projectlist"> <i class="fa fa-angle-down ml-1"></i> No Project</button>
+        </div>
+    </div>
+    <script src="task.js"></script>  
+  </body>
+</html>
