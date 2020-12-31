@@ -1,0 +1,165 @@
+
+/* Invoices start here */
+.Invoices{
+    height:620px;
+    width:100%;
+    display:flex; 
+    background-color: #fff;
+
+}
+
+.Invoices_rightside{
+    height:620px;
+    width:83%;
+    padding-top:1%;
+    padding-left:1%;
+    font-family: PTRootUIWeb,sans-serif;
+    margin-left:17%;
+    
+}
+.Invoices_header {
+    display:flex;
+    height:50px;
+    margin-bottom:5px;
+}
+.Invoices_header >h1,.totalopen > h1,.Invoices_calender>h1{
+    line-height: 1.28;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #34393D;
+    font-family: PTRootUIWeb,sans-serif;
+    background-color: #fff;
+    font-size:30px;
+    margin-bottom:5px;
+}
+.Invoices_calender >img{
+    height:20px;
+    width:8%;
+    margin-top:11%;
+    margin-right:2%;
+}
+.Invoices_calender{
+    display:flex;
+    margin-left:65%;
+}
+
+  .Invoices_dropdown1 {
+    overflow: hidden;
+  }
+   .Invoices_dropdown1 .Invoices_dropbtn1 {
+    cursor: pointer;
+    font-size: 16px; 
+  }
+  .Invoices_dropdown-content1 {
+    display: none;
+    position:absolute;
+    background-color: #F9F9F9;
+    min-width: 160px;
+    width:30%;
+    height:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border:1px solid #A1A7B3;
+    margin-top:2px;
+    border-radius:3px;
+    
+  }
+  .Invoices_dropdown-content1 a {
+    float: none;
+    color: black;
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size:15px;
+  }
+  .Invoices_show1 {
+    display: block;
+  }
+  .Invoices_client_dropdown{
+      height:20px;
+      width:80%;
+      margin:auto;
+      border-radius:10px;
+      /* border-color:; */
+      outline:none;
+      border:1px solid #E2E7EB;
+      padding:2%;
+  }
+  .Invoices_statusall{
+    margin-left:10%;
+    width:15%;
+    height:200px;
+    padding-left:2%; 
+  }
+  
+div .Invoices__buttons{
+    height:50px;
+    margin-top:3%;
+}
+ .Invoices_buttons_all{
+    color:#A1A7B3;
+    height:34px;
+    width:11%;
+    outline: none;
+    border:1px solid #A1A7B3;
+    background-color:white;
+    border-radius:10px;
+    font-family: PTRootUIWeb,sans-serif;
+    padding:.0.5%;
+    font-size:14px;
+    margin-top:2%;
+    margin-right:1%;
+    position:relative;
+}
+
+.New__Invoices{
+    height:300px;
+    width:95%;
+    border:1px solid #A1A7B3;
+    border-radius:5px;
+    margin-top:30px;
+}
+.new__Invoices{
+    height:150px;
+    width:95%;
+    padding:2%;
+}
+.Invoices_total_open{
+    height:100px;
+    padding:0.2%;
+    display:flex;
+}
+.totalopen > p{
+    letter-spacing: 0;
+    color: #34393D;
+    font-family: PTRootUIWeb,sans-serif;
+    
+}
+.Invoices_verticle_line{
+    height:60px;
+    border:1px solid lightgray;
+    margin-top:2%;
+    margin-left:2%;
+    margin-right:1%;
+}
+.new__Invoices_btn{
+    height:38px;
+    width:15%;
+    background: #3070F0;
+    border-color: #3070F0;
+    color: #fff;
+    text-align:center;
+    outline: 0;
+   border-radius:5px;
+   margin-right:2%;
+   font-family: PTRootUIWeb,sans-serif;
+   font-size:14px;
+} 
+.Invoices_text{
+text-align:center;
+font-family: PTRootUIWeb,sans-serif;
+color: #A1A7B3;
+margin-top:40px;
+}
+/* Invoices end here */

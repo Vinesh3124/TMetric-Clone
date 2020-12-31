@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Invoices.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tasks</title>
+</head>
+<body>
+    <div class="Invoices">
+        <div class="Invoices_rightside">
+            <div class="Invoices_header">
+                <h1>Invoices</h1>
+                <div class="Invoices_calender">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAACFhYV9fX3u7u6srKzNzc13d3dJSUlCQkLx8fGenp5WVlajo6P09PSBgYE2NjbW1taxsbHd3d1ubm7m5uZqamo8PDyVlZUuLi7Gxsa4uLhLS0tVVVWJiYmZmZkyMjIcHBwWFhZhYWEODg4hISHwGy8FAAAEHUlEQVR4nO2dfV+yMBSGQVF8A0UwVCirJ7//V3xSK2X3Sn7xsp11X3/OwzpXCNuODj2vBjNfZV7nsJaZQxaz1vqmYT/QsAk07AcaNoGG/UDDJtCwH2jYBBr2Aw2bEEPfUWt91yeCLOIGvW2SYnQF+35Yj/pm/YD/55uXi2RT2y6dL6AvGSzm6X29ONqZzrMRuzvXz2xpOsMWGPxweeLdSibfnccgN51Za0y0p3FvOq1WGaPg2nROLVO4egleGVUFC9P5dMD+VjAxnU0n3ExycN7pBC9XQ6mztHuEbo4TtyQfhi+mE+mM3M2R8JbL/fRoOo0OmZ4Ex6az6JTTiBFqX8mKJPgihZe3cdA38RaySK+vJkWm9di+G+rah9UZD46XdlSiqiuIWHeudvrpjDKlE1Nrw3qS7wfeCBshfSmGHr6R3++mQ2hbQN9iDL0JxBy8EtoSOE6OIQ4MofcKbdi3HEO8bz5iU4aHCTL8p8bs0PAJDxNkCLeVNzQc4GGCDAcQRMMzNOwHGp6hIQ2dNYzLx0WFct29ELAuq0k8lppPmH5pKAga0tB+aEhD+6EhDe2Hhic0lShBPNUwdA0ayoeG8qGhfGgoHxrKh4byoaF8aCgfNJwuh3JZTmsYul/FcL8SRUO7oSEN7YeGNLQfGtLQfmhIQ/uh4d80xIfyQLe4wy9QQ3DLFTx9JIAQdR+kZlvTkoY1DDXHWGRYI1sa0pCGNKQhDWlIQxrSkIZWGLq/ehploQL83b0aksH+1RRC4JG/MwjZqyGemkqm/hNYxaCh/dCQhvZDQxraDw1paD80pKH90PBvGh6mkyoldFvkSsgKqhiJGpLDY1KDlRoCv1HhlUrI9NCCoft1GvdrbTSkIQ1pSEMa0pCGNKQhDfswdH/1tM2nCvB3i5USscMV8LMS8owr4J0SssIVsJpKvm3BUBY0pKH90JCG9kNDGtoPDWloPzSkof3QUGe4DtXHvkG3ezUkg98pStWQEL7JHmdqCH6TvRNDq+o0nRhaVWujIQ1pSEMa0pCGNKQhDWlIQ2sNh/cNo/uGewiB5S0aRv0YyoKGNLQfGtLQfmhIQ/upY4gfS0gC5phv3ovaNDGdZCPgt4KO2IQTa0HEYDPxQmj7xYzeGuZgE3oHaPPhwz8xzFBmrlm4+bnpRH/NCmXGOm0/l3kWZ88al1hz9zkRyXOM8Rr0LyMDliAu5zEcSCLUnT//UurRvU3d4fxezExn0SGXCVpqOo0O2VyuUXdP4uccG6c6rvA1ImDN2g1u9k09mM6lEyoPWv1mNBFNdY+dg5fiUZnzBG+mM2qZIzzoN96ZzqlVcBuoY7ebb4pN7gwauL3282J04zSGPy39UizbSGO5+cHvfMeJtEtiIZTrO3ofkvtDNpU2erxOsmise3v+B23ZhqGmAMhFAAAAAElFTkSuQmCC"/>
+                <h1>Last Week</h1>
+                </div>
+           </div>
+           <div class="Invoices_buttons Invoices_dropdown1">
+                <button id="client_all"  onclick="Invoices_Function1()" class="Invoices_buttons_all Invoices_dropbtn1">Client : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="Invoices_Dropdown1" class="Invoices_dropdown-content1">
+                    <a href="#">
+                        <input  class="Invoices_client_dropdown" placeholder="Find client..."/>
+                    </a>
+                    <a href="#">No items</a>
+                    
+                </div>
+                <button id="status_all" onclick="Invoices_Function2()" class="Invoices_buttons_all Invoices_dropbtn1">Status : <span style="color:black">All  <i class="fa fa-angle-down ml-1"></i></span></button>
+                <div id="Invoices_Dropdown2" class="Invoices_dropdown-content1 Invoices_statusall">
+                    <a href="#">All</a>
+                    <a href="#">Open</a> 
+                    <a href="#">Closed</a> 
+                    <a href="#">Draft</a>
+                    <a href="#">Sent</a> 
+                    <a href="#">Late</a>
+                </div> 
+            </div>
+            <div class="New__Invoices">
+                <div class="new__Invoices">
+                    <div class="Invoices_total_open">
+                        <div class="totalopen">
+                            <p>Total Open</p>
+                            <h1>0.00 USD</h1>
+                        </div>
+                        <div class="Invoices_verticle_line"></div>
+                        <div class="totalopen">
+                            <p>Total Paid</p>
+                            <h1>0.00 USD</h1>
+                        </div>
+                    </div>
+                    <hr>
+                    <button  id="New_Invoices_button" class="new__Invoices_btn">+ New Task</button>
+                 </div>
+                 <hr>
+                <p class="Invoices_text">There are no invoices to view. Create new invoice.</p>
+            </div> 
+       </div> 
+  <script src="Invoices.js"></script>  
+</body>
+</html>
