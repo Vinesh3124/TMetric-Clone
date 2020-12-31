@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login_page.css">
+   
+</head>
+<body>
+        <div class="main_div">
+            <div class="top_div">
+                <img src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
+                <h1 style="color: #34393D;">Log into TMetric</h1>
+            </div>
+            <form class="input_div" id="intput_div">
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input class="input" type="email" id="email" placeholder="1amanpce@mail.com" required >
+                    <p id = "output_email"></p>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                </div>
+                <div>
+                    <input class="input" type="password" id="password" placeholder="Enter your Password">
+                    <p id = "output_password"></p>
+                </div>
+                <div>
+                    <a style="color:#3070F0; margin-top: 10px;" href="https://id.tmetric.com/core/ForgotPassword?redirect_uri=%2Fcore%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dwebapp%26redirect_uri%3Dhttps%253A%252F%252Fapp.tmetric.com%252Fcallback%26response_mode%3Dform_post%26response_type%3Did_token%2520code%26scope%3Dopenid%2520email%2520profile%2520offline_access%2520main_api%26state%3DOpenIdConnect.AuthenticationProperties%253D0H_dYMEsCG0o47C_SqmTd-G8hT_vEDSXgQGGK6kL6UOezghNdWQOPMEnpUUpPCVtE5N60Qy8q02aXJybGhOFH7AdQQPyXx4z3i3WRiPvjKfoq_QgsRm4rzmU-UQYUad7FaHivaS5x7s4SgitMf6ptz_QA2FafagM3zF4I3gy0028L88IG2jJHlel3ahtSdZD4aLms669ZquK61DkzqndR9HzGxQiSKtf3ODphOxQBow%26nonce%3D637448206697897007.NzY4NDgzN2MtOGZkYS00M2I5LThiOGQtMzdlNTY3Y2NhZDBmYjc1NGI1OTYtMjQyNi00MzNkLWE5NmUtNTVkYmRhNjNlNTNm&controller=LogonWorkflow">Forget password?</a>
+                </div>
+                <div>
+                    <button id="submit" class="log_in_btn">Log in </button>
+                </div>
+                <div>
+                    <button class="google_log_in_btn">
+                        <img class="google_logo" src="https://www.flaticon.com/svg/static/icons/svg/2702/2702602.svg" alt="Log in with Google"/>
+                    </button>
+                </div>
+                <div>
+                    <a class="sign_up_btn" href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\sign_up.html">Sign Up</a>
+                </div>
+            </form>
+        </div>
+   
+        
+
+            <script> var form = document.getElementById('input_div');
+                var gmail= document.getElementById('email');
+                var pwd=document.getElementById('password')
+                var submit = document.getElementById('submit');
+                var para_email = document.getElementById('output_email');
+                var para_pwd = document.getElementById('output_password');
+                var para_box= document.getElementById('output_box');
+        
+                
+                function validate(e){
+                    e.preventDefault()
+                     if(gmail.value=== ""){
+                        para_email.textContent="Enter your Email id"
+                    }
+                    else if(pwd.value=== ""){
+                        para_pwd.textContent="Enter your password"
+                        
+                    }
+                }
+                document.getElementById("submit").addEventListener('click', validate);
+</script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Account</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <div class="sign_up_main_div">
+        <div class="left_div">
+            <div class="left_div_div">
+                <img src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
+                <h1 style="color: #34393D;">Create Your Account</h1>
+            </div>
+            <form class="input_div">
+                <div>
+                    <label for="name"  class="label">Name</label>
+                </div>
+                <div>
+                    <input class="input" type="text" id="name" placeholder="Enter Your Full Name">
+                    <p id = "output"></p>
+                </div>
+                <div>
+                    <label for="email"  class="label">Email</label>
+                </div>
+                <div>
+                    <input class="input" type="email" id="email" placeholder="1amanpce@mail.com">
+                    <p id = "output_email"></p>
+                </div>
+                <div>
+                    <label for="password" class="label">Password</label>
+                </div>
+                <div>
+                    <input class="input" type="password" id="password" placeholder="Enter your Password">
+                    <p id = "output_password"></p>
+                </div>
+                <div>
+                    <input type="checkbox" id="accept" name="accept" checked>
+                    <label for="accept">I accept <a class="a" href=""> Terms of Service</a></label>
+                 </div>
+                <div>
+                        <!-- <input id="submit" class="log_in_btn" type="submit"> -->
+                        <button id="submit" class="log_in_btn">Sign Up</button>
+                </div>
+                <div>
+                    <button class="google_log_in_btn">
+                        <img class="google_logo" src="https://www.flaticon.com/svg/static/icons/svg/2702/2702602.svg" alt="Log in with Google"/>
+                    </button>
+                </div>
+               
+            </form>
+            <div>
+                <a class="sign_up_btn" href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\login_page.html">Log In</a>
+            </div>
+        </div>
+        <div class="right_div">
+            <div class="div_1"></div>
+            <div class="div_2">
+                <div class="div_1">
+                    <div class="div_4">1</div>
+                </div>
+            </div>
+            <div class="div_3">
+                <div class="div_2">
+                    <div class="div_1">
+                        <div class="div_4">1</div>
+                    </div>
+                </div>
+                <div class="div_1"></div>
+               
+            </div>
+            <div class="div_1"></div>
+            <div></div>
+        </div>
+    </div>
+
+
+
+<script>
+
+        var form = document.getElementById('input_div');
+        var fname = document.getElementById('name');
+        var gmail= document.getElementById('email');
+        var pwd=document.getElementById('password')
+        var submit = document.getElementById('submit');
+        var para = document.getElementById('output');
+        var para_email = document.getElementById('output_email');
+        var para_pwd = document.getElementById('output_password');
+        var para_box= document.getElementById('output_box');
+
+        function validate(e){
+            e.preventDefault()
+            if(fname.value === ""){
+                para.textContent = "Enter your name"
+            }
+            else if(gmail.value=== ""){
+                para_email.textContent="Enter your Email id"
+            }
+            else if(pwd.value=== ""){
+                para_pwd.textContent="Enter your password"
+                
+            }
+        }
+        document.getElementById("submit").addEventListener('click', validate);
+</script>
+</body>
+</html>
