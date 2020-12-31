@@ -1,0 +1,259 @@
+.newProject__container{
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+}
+
+.newProject__container__title{
+    width: 30%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+    cursor: pointer;
+    display: flex;
+}
+
+.newProject__container__title>div:nth-child(1){
+    /* border: 1px solid black; */
+    height: 20px;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.newProject__container__title>div:nth-child(2){
+    width: 100%;
+}
+
+.newProject__container__title>div:nth-child(2)>a{
+    width: 100%;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    margin-left: 2%;
+}
+
+.newProject__container__form{
+    width: 95%;
+    height: auto;
+    margin-top: 1%;
+    border: 1px solid #E2E7EB;
+    padding-bottom: 10%;
+    border-radius: 8px;
+}
+
+.newProject__container__form__container{
+    width: 65%;
+    height: 90%;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 1px solid black; */
+}
+
+.newProject__container__form__title{
+    display: flex;
+    width: 25%;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+.newProject__container__form__title>div{
+    width: 50%;
+    height: 100%;
+}
+
+.newProject__container__form__title>div:nth-child(2){
+    /* border: 1px solid black; */
+    height: 50%;
+    width: 39%;
+    padding: 2px;
+    border-radius: 25px;
+    margin-top: 11%;
+    background-color: #E3F8E6;
+    color: #0E781C;
+}
+
+.newProject__container__form__title>div p, span{
+    font-size: 25px;
+    /* text-align: center; */
+}
+
+.newProject__container__form__details{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 2%;
+    color: #757575;
+}
+
+.newProject__container__form__details__folder{
+    width: 250px;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 6%;
+}
+
+.newProject__container__form__details__folder__img{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B4B8CC;
+    color: white;
+    margin-top: 5%;
+    padding-top: 5px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.newProject__container__form__details__notes>input{
+    width: 650px;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid #D0D6DB;
+}
+
+.newProject__container__form__details__notes>label{
+    color: #757575;
+}
+
+.newProject__container__form__details__folder>div:nth-child(2){
+    /* border: 1px solid black;  */
+    height: 50%;
+    margin-top: 9%;
+    margin-left: 2%;  
+    color: #3070F1;
+}
+
+.newProject__container__form__details>div:nth-child(1), .newProject__container__form__details>div:nth-child(2){
+    margin-top: 2%;
+}
+
+.newProject__container__form__details>div:nth-child(2){
+    margin-left: 2%;
+}
+
+.newProject__container__form__details>div:nth-child(1)>input{
+    width: 350px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid #D0D6DB;  
+}
+
+.newProject__container__form__details>div:nth-child(2)>input{
+    width: 280px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid #D0D6DB;
+}
+
+.newProject__container__form__container__billing{
+    width: 90%;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+
+.newProject__container__form__container__billing>div:nth-child(2){
+    width: 60%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 2%;
+}
+
+.newProject__container__form__container__billing>div:nth-child(2) div{
+    width: 40%;
+    height: 45%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    border: 1px solid #D0D6DB;
+}
+
+.newProject__container__form__container__billing>div:nth-child(2) div:hover,
+.newProject__container__form__container__budget>div:nth-child(2) div:hover{
+    background-color: rgb(193, 214, 255);
+    border: 1px solid rgb(57, 126, 255);
+}
+
+.newProject__container__form__container__billing>div:nth-child(2)>div:nth-child(1),
+.newProject__container__form__container__budget>div:nth-child(2)>div:nth-child(1){
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.newProject__container__form__container__billing>div:nth-child(2)>div:nth-child(3),
+.newProject__container__form__container__budget>div:nth-child(2)>div:nth-child(5){
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.newProject__container__form__container__billing>div:nth-child(1),
+.newProject__container__form__container__budget>div:nth-child(1),
+.newProject__container__form__container__team>div:nth-child(1){
+    font-size: 28px;
+}
+
+.newProject__container__form__container__budget{
+    width: 90%;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+
+.newProject__container__form__container__budget>div:nth-child(2){
+    width: 80%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 2%;
+}
+
+.newProject__container__form__container__budget>div:nth-child(2) div{
+    width: auto;
+    height: 45%;
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    border: 1px solid #D0D6DB;
+}
+
+.newProject__container__form__container__team>div:nth-child(2), 
+.newProject__container__form__container__team>div:nth-child(3){
+    width: 90%;
+    height: 80px;
+    border: 1px dashed #D0D6DB;
+    border-radius: 8px;
+}
+
+.newProject__container__form__container__team>div:nth-child(3){
+    background-color: cornflowerblue;
+    border: none;
+}
+
+.newProject__container__form__container__team>div:nth-child(2)>button{
+    width: 40%;
+    height: 50%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.newProject__container__form__container__team>div:nth-child(2)>button:hover{
+    background-color: #E2E7EB;
+}
+
+.newProject__container__form__container__team>div:nth-child(3)>p{
+    padding-top: 20px;
+    text-align: center;
+}
