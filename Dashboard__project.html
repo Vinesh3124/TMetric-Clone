@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dashboard__project.css" />
+    <script src="https://kit.fontawesome.com/f612f4d575.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Projects- TMetric</title>
+</head>
+<body>
+    <div class="Projects__conatiner">
+        <div class="Projects__conatiner__strong">
+            <strong>Projects</strong>
+        </div>
+        
+        <div class="navbar">
+        
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Clinet: All
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <div><input type="text" placeholder="Find client..."/></div><br/>
+                    <div><input type="checkbox"/><lable>No client</lable></div>
+                </div>
+            </div> 
+      
+            <div class="dropdown1">
+                <button class="dropbtn1" onclick="myFunction1()">Status: Active and Done
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content1" id="myDropdown1">
+                    <a href="#">Any</a>
+                    <a href="#">Active and Done</a>
+                    <a href="#">Active</a>
+                    <a href="#">Archived</a>
+                </div>
+            </div> 
+    
+            <div class="dropdown2">
+                <button class="dropbtn2" onclick="myFunction2()">Billing: Any
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content2" id="myDropdown2">
+                    <a href="#">Any</a>
+                    <a href="#">Non-billable</a>
+                    <a href="#">Time & Materials</a>
+                    <a href="#">Fixed Fee</a>
+                </div>
+            </div> 
+    
+            <div class="dropdown3">
+                <button class="dropbtn3" onclick="myFunction3()">Budget: Any
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content3" id="myDropdown3">
+                    <a href="#">Any</a>
+                    <a href="#">Yes</a>
+                    <a href="#">No</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="Projects__container__list">
+            <div class="Projects__container__list__dash">
+                <button><span class="fa fa-plus"></span> New Project</button>
+                <div class="Projects__container__list__toggle">
+                    <input type="checkbox" id="switch"  class="checkbox" /> 
+                    <label for="switch" class="toggle">
+                </div>
+                <p>Group by client</p>
+                <label>0 projects</label>
+                <div class="Projects__container__list__input">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search"/>
+                </div>
+            </div>
+            <div class="Projects__container__list__filter">
+                <p>There are no projects matching current filter.</p>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="Dashboard__project.js"></script>
+</body>
+</html>

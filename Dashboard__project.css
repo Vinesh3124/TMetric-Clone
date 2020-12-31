@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+}
+
+.Projects__conatiner__strong{
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    font-size: 30px;
+    margin-top: 3%;
+}
+
+/* ---------------drop down------------------------ */
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown, .dropdown1, .dropdown2, .dropdown3 {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn, .dropdown1 .dropbtn1, .dropdown2 .dropbtn2, .dropdown3 .dropbtn3{
+    cursor: pointer;
+    font-size: 14px;  
+    /* border: none; */
+    border: 1px solid grey;
+    outline: none;
+    color: black;
+    padding: 5px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.dropbtn{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-right: none;
+}
+  
+.dropbtn1{
+    border-right: none;
+}
+  
+.dropbtn3{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-left: none;
+}
+
+/* .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+} */
+  
+.dropdown-content, .dropdown-content1, .dropdown-content2, .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a, .dropdown-content1 a, .dropdown-content2 a, .dropdown-content3 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.show {
+    display: block;
+}
+
+.dropdown-content>div:nth-child(1){
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+}
+
+.dropdown-content>div:nth-child(1)>input{
+    padding: 10px;
+    width: 350px;
+    margin-top: 1%;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+/* -------------------------------------------------- */
+.Projects__container__list{
+    width: 75%;
+    height: auto;
+    margin-left: 10%;
+    border: 1px solid rgb(208, 214, 219);
+    margin-top: 2%;
+    border-radius: 8px;
+}
+
+.Projects__container__list__dash{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(208, 214, 219);
+    display: flex;
+}
+
+.Projects__container__list__dash>button{
+    width:15%;
+    height: 65%;
+    /* padding: 15px; */
+    color: white;
+    background-color: #3876f1;
+    margin-top: 1.2%;
+    margin-left: 2%;
+    border: none;
+    border-radius: 8px
+}
+
+.Projects__container__list__dash>button:hover{
+    background-color: #1159E9;
+}   
+
+/* 
+-------------------------------------------------------- */
+        
+/* toggle in label designing */
+.toggle { 
+    position : relative ; 
+    display : inline-block; 
+    width : 40px; 
+    height : 18px; 
+    background-color: white; 
+    border-radius: 30px; 
+    border: 2px solid rgb(211, 211, 211); 
+} 
+        
+/* After slide changes */
+.toggle:after { 
+    content: ''; 
+    position: absolute; 
+    width: 20px; 
+    height: 16px; 
+    border-radius: 50%; 
+    background-color: rgb(236, 236, 236); 
+    top: 1px;  
+    left: 1px; 
+    transition:  all 0.5s; 
+} 
+        
+/* Checkbox cheked effect */
+.checkbox:checked + .toggle::after { 
+    left : 18px;  
+} 
+        
+/* Checkbox cheked toggle label bg color */
+.checkbox:checked + .toggle { 
+    background-color: blue; 
+} 
+        
+/* Checkbox vanished */
+.checkbox {  
+    display : none; 
+} 
+
+.Projects__container__list__toggle{
+    margin-top: 2.8%;
+    margin-left: 2%;
+}
+
+.Projects__container__list__dash>p{
+    width: 12%;
+    height: 25%;
+    margin-top: 2.8%;
+    margin-left: 2%;
+    color: #5e5c5c;
+}
+
+.Projects__container__list__input{
+    width: 20%;
+    height: 35%;
+    border: 1px solid #D0D6DB;
+    margin-top: 2.3%;
+    color: #D0D6DB;
+    border-radius: 8px;
+}
+
+.Projects__container__list__input>input{
+    border: none;
+    font-weight: bolder;
+    font-size: 13px;
+    color: #D0D6DB;
+}
+
+.Projects__container__list__input>i{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.Projects__container__list__dash>label{
+    width: 10%;
+    height: 25%;
+    /* border: 1px solid black; */
+    margin-top: 2.5%;
+    margin-left: 30%;
+    font-size: 20px;
+    color: #5e5c5c;
+}
+
+.Projects__container__list__filter{
+    color: #5e5c5c;
+    padding: 20px;
+    text-align: center;
+}
