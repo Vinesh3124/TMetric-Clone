@@ -89,7 +89,7 @@ CSS for Top Starts here
 
 .top__navbar__options__3{
     width: 9%;
-}
+}   
 
 .top__navbar__login{
     width: 25%;
@@ -98,6 +98,11 @@ CSS for Top Starts here
     margin-left: 0%;
     display: flex;
     /* border: 1px solid black; */
+}
+
+.top__navbar__login>button{
+    background: inherit;
+    cursor: pointer;
 }
 
 

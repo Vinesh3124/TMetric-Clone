@@ -36,7 +36,14 @@
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid #D5DBDF;
+    cursor: pointer;
 }
+
+.log_in_btn>a{
+    text-decoration: none;
+    color: white;
+}
+
 .google_log_in_btn{
     height: 36px;
     width: 360px;

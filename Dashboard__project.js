@@ -1,17 +1,17 @@
-function myFunction() {
-   document.getElementById("myDropdown").classList.toggle("show");
+function myFunctiondropdown() {
+   document.getElementById("dropdown_content").classList.toggle("show");
  }
  
- function myFunction1() {
-   document.getElementById("myDropdown1").classList.toggle("show");
+ function myFunctiondropdown1() {
+   document.getElementById("dropdown_content1").classList.toggle("show");
  }
  
- function myFunction2() {
-   document.getElementById("myDropdown2").classList.toggle("show");
+ function myFunctiondropdown2() {
+   document.getElementById("dropdown_content2").classList.toggle("show");
  }
  
- function myFunction3() {
-   document.getElementById("myDropdown3").classList.toggle("show");
+ function myFunctiondropdown3() {
+   document.getElementById("dropdown_content3").classList.toggle("show");
  }
  
  // Close the dropdown if the user clicks outside of it
