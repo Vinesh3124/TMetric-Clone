@@ -57,6 +57,11 @@ body{
     cursor: pointer;
 }
 
+.client__container__box__inner>button>a{
+    text-decoration: none;
+    color: white;
+}
+
 .client__container__box__inner>button:hover{
     background-color: #0049db;
 }

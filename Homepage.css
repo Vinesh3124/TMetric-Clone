@@ -105,6 +105,11 @@ CSS for Top Starts here
     cursor: pointer;
 }
 
+.top__navbar__login>button>a{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* .top__navbar__login>div:nth-child(2) */
 
@@ -585,7 +590,6 @@ CSS for Bottom Starts here
 .Integration__boxes{
     height: 120px;
     width:100%;
-    
     margin:2% auto;
     display:flex;
 }
