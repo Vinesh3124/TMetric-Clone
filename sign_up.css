@@ -1,4 +1,8 @@
-  /* sign up main div */
+body{
+    font-family: 'Source Serif Pro', serif;;
+}
+
+/* sign up main div */
   .sign_up_main_div{
     height: 650px;
     width: 1250px;

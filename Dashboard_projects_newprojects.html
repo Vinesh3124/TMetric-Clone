@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Dashboard_projects_newprojects.css" />
     <script src="https://kit.fontawesome.com/f612f4d575.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="menu_bar.css">
     <title>Document</title>
 </head>
@@ -129,22 +131,22 @@
                 <div class="newProject__container__form__details">
                     <div>
                         <label>project name</label><br>
-                        <input type="text" placeholder="Enter project name"/><br><br>
+                        <input type="text" id="newProjectName" placeholder="Enter project name"/><br><br>
                         <label>Client</label><br/>
                         <input type="text" placeholder="No client"/><br/><br/><br/><br/>
                     </div>
                     <div>
                         <label>Project code</label><br>
-                        <input type="text" placeholder="PR-01"/>
+                        <input type="text" id="newProjectid" placeholder="PR-01"/>
                         <div class="newProject__container__form__details__folder">
-                            <div class="newProject__container__form__details__folder__img"><i class="fas fa-folder fa-2x"></i></i></div>
+                            <div class="newProject__container__form__details__folder__img" id="newProjectLogo"><i class="fas fa-folder fa-2x"></i></i></div>
                             <div><label>Select project image</label></div>
                         </div>
                     </div>
                 </div>
                 <div class="newProject__container__form__details__notes">
                     <label>Notes</label><br/>
-                    <input type="text" placeholder="Additional information on the project"/>
+                    <input type="text" id="newProjectNotes" placeholder="Additional information on the project"/>
                 </div>
                 <div class="newProject__container__form__container__billing">
                     <div><p>Billing</p></div>
@@ -176,6 +178,10 @@
                             It's a public project. Time can be recorded by every member. All workspace members 
                             will see the project in their reports. Add team members to restrict project visibility.
                         </p>
+                    </div>
+                    <div class="sub_can_btn">
+                        <button  id="submitNew">Submit</button>
+                        <button id="cancelNew">Cancel</button>
                     </div>
                 </div>
             </div>

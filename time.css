@@ -1,5 +1,5 @@
 body{
-    font-family: PTRootUIWeb,sans-serif;
+    font-family: 'Source Serif Pro', serif;;
 }
         /* menu_style */
         
@@ -242,4 +242,8 @@ body{
 
 .time__startbtn{
     margin-left: 4%;
+}
+
+.form-popup{
+    margin-right: 60.7%;
 }
