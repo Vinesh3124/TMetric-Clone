@@ -53,13 +53,13 @@
 <ul>
 <li>My Activity page displays the data for the whole day. It shows amount of time worked on a project, break time and total productive hours in a day.
 </ul>
-<img width="929" alt="Screenshot (640)" src="Dash_activity.PNG>
+<img width="929" alt="Screenshot (640)" src="Dash_activity.PNG">
 <h1></h1>
 
 #### Dashboard - Projects
 <ul>
 <li>Projects page displays the active projects in the dashboard. This page has multiple dropdown button and a toggle switch to get the required projects.
-<li>This page also has a button which allows us to add a new project in the dashboard
+<li>This page also has a button which allows us to add a new project in the dashboard.
 </ul>
 <img width="929" alt="Screenshot (640)" src="Dash_project.PNG">
 <img width="929" alt="Screenshot (640)" src="Dash_project_new.PNG">
