@@ -104,7 +104,7 @@
  👤 Thulasi Vadde
  <ul>
  <li>Github : ThulasiVadde
- <li>Email : 
+ <li>Email : thulasi4a5@gmail.com
  </ul>
 
 <h1></h1>
@@ -113,6 +113,6 @@
  👤 Amanullah
  <ul>
  <li>Github : Amanullah21
- <li>Email : 
+ <li>Email : 1amanpce@gmail.com
  </ul>
 
