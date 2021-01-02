@@ -1,0 +1,33 @@
+    
+    
+<form id  = "input_div">
+  <div>
+    <label for="name">First name: </label>
+    <input id="name" type="text">
+    <p id = "output"></p>
+  </div>
+  <div></div>
+  
+  <div>
+     <input id="submit" type="submit">
+  </div>
+</form>
+
+<script>
+    
+// var lname = document.getElementById('email');
+// var lname = document.getElementById('password');
+var form = document.getElementById('input_div');
+var fname = document.getElementById('name');
+var submit = document.getElementById('submit');
+var para = document.getElementById('output');
+
+function validate(e){
+  if(fname.value == ''){
+    e.preventDefault()
+    para.textContent = "enter your name"
+  }
+}
+
+form.addEventListener('submit', validate);
+</Script>

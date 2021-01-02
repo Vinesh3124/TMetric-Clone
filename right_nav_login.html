@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dright_nav</title>
+    <style>
+        
+.right_side_nav {
+  height: 400px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #F6F7F8;
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.right_side_nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #34393D;
+  display: block;
+  transition: 0.3s;
+}
+
+.right_side_nav .close_btn {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  margin-right:5px;
+}
+
+/* .menu_bar_logo{
+    height: 20px ;
+    width: 20px;
+    margin-right: 10px;
+} */
+.log_out_logo{
+    height: 40px;
+    width: 40px;
+    margin:auto;
+
+}
+    </style>
+</head>
+<body>
+    <div id="right_Side_nav" class="right_side_nav">
+        <div class="right_top_div">
+            <img class="log_out_logo" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg" alt="">
+        </div>
+            <a href="javascript:void(0)" class="right_close_btn" onclick="right_closeNav()">&times; </a>
+                    <a href=""> 
+                    <img class="log_out_logo" src="" alt="Time_logo">Profile
+            </a>
+    </div>
+    <span style="font-size:30px;cursor:pointer ;float: right;" onclick="right_openNav()">
+         <img class="log_out_logo" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg" alt="profile">   Aman
+    </span>
+    
+    
+    <script>
+        function right_openNav() {
+        document.getElementById("right_Side_nav").style.width = "250px";
+        }
+
+        function right_closeNav() {
+        document.getElementById("right_Side_nav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
