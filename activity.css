@@ -216,15 +216,15 @@ margin: 3px;
 }
 
 .camera_div{
-    height: 40px;
+    height: 30px;
     width: auto;
     background-color:  #DEE7F7;
-    padding: 30px 20px 30px 50px;
+    padding: 40px 20px 30px 60px;
 }
 
 .camera_logo{
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     /* display: flex;
     flex-direction: center; */
 }
