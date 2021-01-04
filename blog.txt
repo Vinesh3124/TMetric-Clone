@@ -1,0 +1,56 @@
+HOW WE BUILD THE TMETRIC Website?
+Hi reader, you might have visited, read, or heard about the TMETRIC,
+TMETRIC is a time tracking app that helps streamline your growing
+ business for higher profits, satisfied clients and happier teams.
+Time Tracking App For Running Business With Clarity .
+For more information go to https://tmetric.com/
+
+
+Moving on ahead, we, team Oxygen at masaischool.com developed the
+Website on TMETRIC in just 3 days as a part of our curriculum’s Module 2
+ project evaluation. This blog is all about what are all things we used? ,
+ how we did it? , what challenges did we face? , and how we overcame those challenges?
+
+
+TECHNOLOGY STACK WE USED
+HTML
+CSS
+Javascript
+Yes, I know what you might be thinking. How is it possible to
+ make the Website with just 3 technologies. We’ll as we have just 
+started our humble journey to learn full-stack web development at the
+ Masai school, we just knew these technologies so far. But I hope
+ you would really appreciate the amount of precision and the perfectness
+ we have achieved. To know how we did it please keep reading.
+
+
+HOW WE DID IT
+Before answering the big question of “ how we did it? ”, let me show you
+ some snippets of our website.
+
+pic of home page
+write landing page
+sign_in_sign out page
+dash board_time
+
+
+
+I hope I am not overwhelming you with so many snippets. 
+The snippets attached above are just some parts of what
+ we have made so that you could compare them with the actual website.
+Now answering the big question of how we did it,
+ I would like to say that it is because of the guidance of our
+ captain Abhishek Jain & the dedication towards making the website
+ pixel perfect, I and my wonderful teammates had, 
+we able to achieve our goal. As part of Masai school, we have always
+ believed that communication and skills are greater than knowledge
+ so it is because of effective communication and sheer will to understand
+ complicated things and make them simple to understand,
+ we were able to create the page with comparatively fewer resources.
+
+We used the following resources for our help:
+
+https://developer.mozilla.org/en-US/
+https://www.w3schools.com/
+https://www.flaticon.com/
+https://codepen.io/pen/
